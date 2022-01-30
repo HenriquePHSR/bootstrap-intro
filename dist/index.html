@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="../assets/css/bootstrap.css" rel="stylesheet">
+   <link href="../assets/css/all.css" rel="stylesheet">
+   <link href="../assets/css/styles.css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+   <title>Document</title>
+</head>
+
+<body class="bg-dark">
+
+   <nav class="navbar navbar-light navbar-expand-md fixed-top" style="background-color: #1f1f1f;">
+      <div class="container">
+         <a class="navbar-brand" href="index.html"><img src="../assets/images/art-logo.svg" style="width: 90px;"
+               alt="Artstation"></a>
+
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu"
+            aria-expanded="false" aria-label="Botão de navegação">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="menu">
+            <div class="navbar-nav mr-auto">
+               <input type="text" class="form-control bg-dark mt-1" placeholder="Search" aria-label="search">
+            </div>
+            <div class="navbar-nav d-none d-sm-none d-md-flex" style="align-items: center;">
+               <a class="nav-link nav-item" href="#market" style="color: #ffffff;"><i
+                     class="fas fa-cart-arrow-down"></i></a>
+               <a class="nav-link nav-item" href="#signup" style="color: #ffffff;">Sign up</a>
+               <a class="nav-link nav-item" href="#signin" data-toggle="modal"><button class="btn btn-primary"
+                     style="color: #ffffff;">Sign
+                     in</button></a>
+               <div class="dropdown">
+                  <a class="nav-link nav-item dropdown-toggle" data-toggle="dropdown" href="#"><i
+                        class="fas fa-ellipsis-v" style="color: darkgray;"></i></a>
+                  <div class="dropdown-menu bg-dark">
+                     <a href="#" class="dropdown-item"><i class="fas fa-envelope pr-2"></i>Newsletter</a>
+                     <a href="#" class="dropdown-item"><i class="fab fa-facebook-f pr-3"></i>Facebook</a>
+                     <a href="#" class="dropdown-item"><i class="fab fa-instagram"
+                           style="padding-right: 10px;"></i>instagram</a>
+                     <a href="#" class="dropdown-item"><i class="fab fa-twitter pr-2"></i>Twitter</a>
+                  </div>
+               </div>
+            </div>
+            <div class="navbar-nav d-md-none" style="align-items: center;">
+               <a href="#" class="nav-link nav-item" style="color: #ffffff;">Newsletter</a>
+               <a href="#" class="nav-link nav-item" style="color: #ffffff;">Facebook</a>
+               <a href="#" class="nav-link nav-item" style="color: #ffffff;">instagram</a>
+               <a href="#" class="nav-link nav-item" style="color: #ffffff;">Twitter</a>
+               <a class="nav-link nav-item" href="#market" style="color: #ffffff;">Market</i></a>
+               <a class="nav-link nav-item" href="#signup" style="color: #ffffff;">Sign up</a>
+               <a class="nav-link nav-item" href="#signin" data-toggle="modal"><button class="btn btn-primary btn-block"
+                     style="color: #ffffff;">Sign in</button></a>
+            </div>
+         </div>
+      </div>
+      </div>
+   </nav>
+
+   <div class="modal fade" id="signin" style="top: 100px;">
+      <div class="modal-dialog modal-lg">
+         <div class="modal-content" style="background-color: #2b2b2b;">
+               <button style="align-items: right;" type="button" class="close" data-dismiss="modal" aria-label="close">
+                  <span aria-hidden="true" style="color: #ffffff;">&times;</span>
+               </button>
+            <div class="modal-body">
+               <form action="">
+                  <fieldset class="form-group">
+                     <legend class="font-weight-bold" style="text-align: center; color: #ffffff;">SIGN IN</legend>
+
+                     <div class="form-group row">
+                        <label for="nome" class="col-form-label col-lg-2" style="color: #ffffff;">Nome</label>
+                        <div class="col-lg-10">
+                           <input type="text" name="nome" class="form-control bg-dark" placeholder="Nome" id="nome">
+                        </div>
+                     </div>
+                     
+                     <div class="form-group row">
+                        <label for="Email" class="col-form-label col-lg-2" style="color: #ffffff;">Email</label>
+                        <div class="col-lg-10">
+                           <input type="text" id="Email" name="Email" class="form-control bg-dark"
+                              placeholder="E-mail">
+                           
+                        </div>
+                     </div>
+                  
+
+                  <div class="form-group row">
+                     <div class=" col-lg-10 offset-lg-2">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">
+                           Enviar
+                        </button>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+
+<div class="container" style="height: 40px;margin-top: 90px;">
+   <div class="row">
+      <h4 style="color: #ffffff;">Trending</h4>
+   </div>
+</div>
+
+   <div class="row">
+      <div class="col-lg-4 col-md-6">
+      
+         <div class="card mb-3 border-0 ml-3 mr-3" style="background-color: #ffffff;">
+
+         <img src="../assets/images/mike-azevedo-06.jpg">
+
+            <div class="card-body">
+               <div class="text-center">
+      
+                  <h5 class="card-title"><a href="../showcase_view.html" data-trigger="hover" data-toggle="popover"
+                     data-placement="top" data-html="false" title="Contrate este artista"
+                     data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit." style="color: #1f1f1f;">Pedro Henrique</a></h5>
+               </div>
+               <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis harum
+                  aspernatur, adipisci aut, vitae nihil rerum laboriosam dolores, natus corporis expedita optio debitis
+                  eveniet quo doloremque incidunt repellat. Saepe, nemo?</p>
+      
+            </div>
+      
+         </div>
+      </div>
+
+      
+      <div class="col-lg-4 col-md-6">
+      
+         <div class="card mb-3 border-0 ml-3 mr-3" style="background-color: #ffffff;">
+
+         <img src="../assets/images/mike-azevedo-06.jpg">
+
+            <div class="card-body">
+               <div class="text-center">
+      
+                  <h5 class="card-title"><a href="../showcase_view.html" data-trigger="hover" data-toggle="popover"
+                     data-placement="top" data-html="false" title="Contrate este artista"
+                     data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit." style="color: #1f1f1f;">Pedro Henrique</a></h5>
+               </div>
+               <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis harum
+                  aspernatur, adipisci aut, vitae nihil rerum laboriosam dolores, natus corporis expedita optio debitis
+                  eveniet quo doloremque incidunt repellat. Saepe, nemo?</p>
+      
+            </div>
+      
+         </div>
+      </div>  
+      
+      <div class="col-lg-4 col-md-6">
+      
+         <div class="card mb-3 border-0 ml-3 mr-3" style="background-color: #ffffff;">
+
+         <img src="../assets/images/mike-azevedo-06.jpg">
+
+            <div class="card-body">
+               <div class="text-center">
+      
+                  <h5 class="card-title"><a href="../showcase_view.html" data-trigger="hover" data-toggle="popover"
+                     data-placement="top" data-html="false" title="Contrate este artista"
+                     data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit." style="color: #1f1f1f;">Pedro Henrique</a></h5>
+               </div>
+               <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis harum
+                  aspernatur, adipisci aut, vitae nihil rerum laboriosam dolores, natus corporis expedita optio debitis
+                  eveniet quo doloremque incidunt repellat. Saepe, nemo?</p>
+      
+            </div>
+      
+         </div>
+      </div>
+   </div>
+   
+   <div class="scrollmenu">
+      <div class="d-flex mt-3 mb-3" style="height: 100px;">
+         <div class="col-lg-3 col-md-6">
+   
+            <div class="card mb-3 border-0 ml-3 mr-3"
+               style="background-color: #ffffff; padding: 20px; text-align: center; background-image: url(../assets/images/thumb\(1\).jpg);">
+   
+               <a href="#" style="color: #ffffff; padding-top: 10px; font-weight:bolder; font-size: larger;" >Aventura</a> 
+   
+   
+            </div>
+         </div>
+   
+         <div class="col-lg-3 col-md-6">
+   
+            <div class="card mb-3 border-0 ml-3 mr-3"
+               style="background-color: #ffffff; padding: 20px; text-align: center; background-image: url(../assets/images/thumb\(1\).jpg);">
+   
+               <a href="#" style="color: #ffffff; padding-top: 10px; font-weight:bolder; font-size: larger;" >Terror</a> 
+   
+   
+            </div>
+         </div>
+
+         <div class="col-lg-3 col-md-6">
+   
+            <div class="card mb-3 border-0 ml-3 mr-3"
+               style="background-color: #ffffff; padding: 20px; text-align: center; background-image: url(../assets/images/thumb\(1\).jpg);">
+   
+               <a href="#" style="color: #ffffff; padding-top: 10px; font-weight:bolder; font-size: larger;" >Anatomia</a> 
+   
+   
+            </div>
+         </div>
+
+         <div class="col-lg-3 col-md-6">
+   
+            <div class="card mb-3 border-0 ml-3 mr-3"
+               style="background-color: #ffffff; padding: 20px; text-align: center; background-image: url(../assets/images/thumb\(1\).jpg);">
+   
+               <a href="#" style="color: #ffffff; padding-top: 10px; font-weight:bolder; font-size: larger;" >Ambiente</a> 
+   
+   
+            </div>
+         </div>
+
+         <div class="col-lg-3 col-md-6">
+   
+            <div class="card mb-3 border-0 ml-3 mr-3"
+               style="background-color: #ffffff; padding: 20px; text-align: center; background-image: url(../assets/images/thumb\(1\).jpg);">
+   
+               <a href="#" style="color: #ffffff; padding-top: 10px; font-weight:bolder; font-size: larger;" >Animais</a> 
+   
+   
+            </div>
+         </div>
+
+         <div class="col-lg-3 col-md-6">
+   
+            <div class="card mb-3 border-0 ml-3 mr-3"
+               style="background-color: #ffffff; padding: 20px; text-align: center; background-image: url(../assets/images/thumb\(1\).jpg);">
+   
+               <a href="#" style="color: #ffffff; padding-top: 10px; font-weight:bolder; font-size: larger;" >Modelo 3D</a> 
+   
+   
+            </div>
+         </div>
+
+         <div class="col-lg-3 col-md-6">
+   
+            <div class="card mb-3 border-0 ml-3 mr-3"
+               style="background-color: #ffffff; padding: 20px; text-align: center; background-image: url(../assets/images/thumb\(1\).jpg);">
+   
+               <a href="#" style="color: #ffffff; padding-top: 10px; font-weight:bolder; font-size: larger;" >Games</a> 
+   
+   
+            </div>
+         </div>
+
+
+      </div>
+   </div>
+
+
+   <div class="row">
+      <div class="col-xl-2 h-25 col-lg-3 col-md-6  p-0 view overlay zoom" style="background-color:rgb(19, 19, 19);">
+         <a href="../image_view.html">
+            <div class="card-hoverable card border-0 m-0" style="margin-right:0%">
+
+               <img class="" src="../assets/images/mike-azevedo-06.jpg" style="height: 240px; width: 240">
+
+            </div>
+         </a>
+      </div>
+      <div class="card-hoverable col-xl-2 h-25 col-lg-3 col-md-6  p-0" style="background-color:rgb(19, 19, 19);">
+         <a href="../image_view.html">
+            <div class="card border-0 m-0" style="margin-right:0%">
+
+               <img src="../assets/images/sebastian-luca-hoa1-wideshot.jpg" style="height: 240px; width: 240">
+
+            </div>
+         </a>
+      </div>
+      <div class="card-hoverable col-xl-2 h-25 col-lg-3 col-md-6  p-0" style="background-color:rgb(19, 19, 19);">
+         <a href="../image_view.html">
+            <div class="card border-0 m-0" style="margin-right:0%;">
+
+               <img src="../assets/images/mike-azevedo-17.jpg" style="height: 240px; width: 240">
+
+            </div>
+         </a>
+      </div>
+      <div class="card-hoverable col-xl-2 h-25 col-lg-3 col-md-6  p-0" style="background-color:rgb(19, 19, 19);">
+         <a href="../image_view.html">
+            <div class="card border-0 m-0" style="margin-right:0%">
+
+               <img src="../assets/images/sebastian-luca-hoa-1-scene-closeup.jpg" style="height: 240px; width: 240">
+
+            </div>
+         </a>
+      </div>
+      <div class="card-hoverable col-xl-2 h-25 col-lg-3 col-md-6  p-0" style="background-color:rgb(19, 19, 19);">
+         <a href="../image_view.html">
+            <div class="card border-0 m-0" style="margin-right:0%">
+               <img src="../assets/images/sebastian-luca-hoa1-wideshot.jpg" style="height: 240px; width: 240">
+            </div>
+         </a>
+      </div>
+
+      <div class="card-hoverable col-xl-2 h-25 col-lg-3 col-md-6  p-0" style="background-color:rgb(19, 19, 19);">
+         <a href="../image_view.html">
+            <div class="card border-0 m-0" style="margin-right:0%">
+
+               <img class="" src="../assets/images/mike-azevedo-06.jpg" style="height: 240px; width: 240">
+
+            </div>
+         </a>
+      </div>
+      <div class="card-hoverable col-xl-2 h-25 col-lg-3 col-md-6  p-0" style="background-color:rgb(19, 19, 19);">
+         <a href="../image_view.html">
+            <div class="card border-0 m-0" style="margin-right:0%">
+
+               <img src="../assets/images/sebastian-luca-hoa1-wideshot.jpg" style="height: 240px; width: 240">
+
+            </div>
+         </a>
+      </div>
+      <div class="card-hoverable col-xl-2 h-25 col-lg-3 col-md-6  p-0" style="background-color:rgb(19, 19, 19);">
+         <a href="../image_view.html">
+            <div class="card border-0 m-0" style="margin-right:0%;">
+
+               <img src="../assets/images/mike-azevedo-17.jpg" style="height: 240px; width: 240">
+
+            </div>
+         </a>
+      </div>
+      <div class="card-hoverable col-xl-2 h-25 col-lg-3 col-md-6  p-0" style="background-color:rgb(19, 19, 19);">
+         <a href="../image_view.html">
+            <div class="card border-0 m-0" style="margin-right:0%">
+
+               <img src="../assets/images/sebastian-luca-hoa-1-scene-closeup.jpg" style="height: 240px; width: 240">
+
+            </div>
+         </a>
+      </div>
+      <div class="card-hoverable col-xl-2 h-25 col-lg-3 col-md-6  p-0" style="background-color:rgb(19, 19, 19);">
+         <a href="../image_view.html">
+            <div class="card border-0 m-0" style="margin-right:0%">
+               <img src="../assets/images/sebastian-luca-hoa1-wideshot.jpg" style="height: 240px; width: 240">
+            </div>
+         </a>
+      </div>
+
+   </div>
+
+
+
+
+
+
+   <div class="footer" style="background-color: #1f1f1f;">
+      <div class="container">
+
+         <div class="row">
+
+            <div class="col-xl-2 col-lg-3 col-sm-6">
+
+               <img class="mb-3" src="../assets/images/art-logo.svg" style="width: 120px;" alt="Artstation"></a>
+            </div>
+
+            <div class="col-xl-2 col-lg-3 col-sm-6">
+               <ul class="list-unstyled">
+                  <li style="font-weight: bolder;">Galeria</li>
+                  <li><a href='#'>Comunidade</a></li>
+                  <li><a href='#'>Em Alta</a></li>
+               </ul>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-sm-6">
+               <h5 style="font-weight: bolder;">Market</h5>
+               <ul class="list-unstyled">
+                  <li><a href='#'>Em alta</a></li>
+                  <li><a href='#'>Mais vendidos</a></li>
+                  <li><a href='#'>Mais recente</a></li>
+               </ul>
+            </div>
+
+            <div class="col-xl-2 col-lg-3 col-sm-6 ml-auto">
+               <h5 style="font-weight: bolder;">Jobs</h5>
+               <ul class="list-unstyled">
+                  <li><a href="">Contratar</a></li>
+                  <li><a href="">Anunciar</a></li>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+   <script src="../assets/js/jquery-3.3.1.js"></script>
+   <script src="../assets/js/popper.js"></script>
+   <script src="../assets/js/bootstrap.js"></script>
+   <!-- <script type='module' src="assets/js/index.js"></script> -->
+   <script src="main.js"></script>
+   <script src="https://kit.fontawesome.com/73324f48d5.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
